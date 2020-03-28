@@ -14,19 +14,21 @@
 ## Table of Contents
 - [Prerequisites](#Prerequisites)
 - [Installation](#installation)
-<!-- - [Features](#features)
+- [Features](#features)
+- [Usage](#Usage)
+- [Theory](#Theory)
 - [Contributing](#contributing)
 - [Team](#team)
 - [FAQ](#faq)
 - [Support](#support)
-- [License](#license) -->
+- [License](#license)
 
 ## Prerequisites
 
 - python 3.* 
 - opencv 3.4.2.16
 - opencv-contrib 3.4.2.16
-- pandas 
+- pandas > 0.25.*
 
 You can install the libraries individually or using the requiremnts.txt included in the repository. 
 
@@ -52,6 +54,8 @@ pip install -r requirement.txt
 ## Usage
 
 
+
+## Theory
 <img src="https://github.com/razekmh/3D-from-video/blob/master/media/outline.png" title="Study outline" alt="Study outline"></a>
 
 
