@@ -184,20 +184,20 @@ def select_frames (vid, vid_name, fd_algorithm, scalar = 5):
     return (end, len (final_frames_ids), intial_selection_count )
 
 time_list = []
-frame_count_list = []
+final_frame_count_list = []
 intial_selection_list = []
 
 for count in range(len(files_directory)):
-    process_time, frame_count, intial_selection = select_frames (files_directory[count], videos_names[count], fd_algorithm)
+    process_time, final_frame_count, intial_selection = select_frames (files_directory[count], videos_names[count], fd_algorithm)
     time_list.append(process_time)
-    frame_count_list.append(frame_count)
+    final_frame_count_list.append(final_frame_count)
     intial_selection_list.append(intial_selection)
 
 df = pd.DataFrame({
     "video name" : videos_names,
-    "time" : time_list,
-    "frame_count" : frame_count_list,
-    "intial_selection" : intial_selection_list
+    "processing_time" : time_list,
+    "final_frame_count" : final_frame_count_list,
+    "intial_selection_count" : intial_selection_list
 })
 
 df.to_csv(f"{directory}/{fd_algorithm}.csv")
