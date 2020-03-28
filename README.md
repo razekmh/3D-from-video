@@ -60,7 +60,7 @@ pip install -r requirement.txt
 
 > To get started...
 ### Step 1
-    - Show ❤️! ⭐️ the repository
+- Show ❤️! ⭐️ the repository
     
 ### Step 2
 
