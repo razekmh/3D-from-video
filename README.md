@@ -11,3 +11,39 @@
 <img src="https://github.com/razekmh/3D-from-video/blob/master/media/outline.png" title="Study outline" alt="Study outline"></a>
 <!-- > photogrammetry, video, visual odometry, keypoint detection -->
 
+
+## Table of Contents
+- [Prerequisites](#Prerequisites)
+- [Installation](#installation)
+<!-- - [Features](#features)
+- [Contributing](#contributing)
+- [Team](#team)
+- [FAQ](#faq)
+- [Support](#support)
+- [License](#license) -->
+
+## Prerequisites
+
+- python 3.* 
+- opencv
+- opencv-contrib
+- pandas 
+
+You can install the libraries individually or using the requiremnts.txt included in the repository. 
+
+- first clone the repository
+```
+git clone https://github.com/razekmh/3D-from-video.git
+```
+
+- then install the requirements 
+```
+pip install -r requirement.txt
+```
+
+## Installation
+- Make sure you have all the prerequisites installed and configured 
+
+### Clone
+
+
