@@ -1,22 +1,31 @@
+import argparse
 import cv2 
 from matplotlib import pyplot as plt
-import time
 import numpy as np
 from operator import itemgetter
 import os
 import pandas as pd
+import time
 
 from utilities import *
 
+parser = argparse.ArgumentParser()
+
+
+parser.add_argument("--directory", "-d", default="videos", help="directory of the videos")
+parser.add_argument("--extension", "-ex",  help="Video file extension")
+parser.add_argument("--algorithm", "-fd", help="Feature detection algorthim", choices=['SIFT', 'ORB'])
+
+args = parser.parse_args()
+
+
 # set main variables
 # TODO: make these sys argv
-path = "C:/Users/razek/Desktop/file"
-scalar = 5
-fd_algorithm = "SIFT"
+directory = args.directory # "C:/Users/razek/Desktop/file"
+fd_algorithm = args.algorithm #"SIFT"
 
 
-
-files_path, videos_names = find_videos(path)
+files_directory, videos_names = find_videos(directory)
 
 
 def save_frames(vid, vid_name, fd_algorithm, final_frames_ids):
@@ -186,8 +195,8 @@ time_list = []
 frame_count_list = []
 intial_selection_list = []
 
-for count in range(len(files_path)):
-    process_time, frame_count, intial_selection = select_frames (files_path[count], videos_names[count], fd_algorithm)
+for count in range(len(files_directory)):
+    process_time, frame_count, intial_selection = select_frames (files_directory[count], videos_names[count], fd_algorithm)
     time_list.append(process_time)
     frame_count_list.append(frame_count)
     intial_selection_list.append(intial_selection)
@@ -199,6 +208,6 @@ df = pd.DataFrame({
     "intial_selection" : intial_selection_list
 })
 
-df.to_csv(f"{path}/{fd_algorithm}.csv")
+df.to_csv(f"{directory}/{fd_algorithm}.csv")
 
 print ("Done!")

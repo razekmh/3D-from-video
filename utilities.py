@@ -3,13 +3,13 @@ import os
 import xml.etree.ElementTree as ET
 
 # find all videos whith a certain directory 
-def find_videos(path):
+def find_videos(path, extension="MOV"):
     videos_names = []
     files_path = []
     for file in os.listdir(path):
-        if file.endswith(".MOV"):
-            videos_names.append(file)
-            files_path.append(os.path.join(path,file))
+        if file.endswith(f".{extension}"):
+                videos_names.append(file)
+                files_path.append(os.path.join(path,file))
     return(files_path, videos_names)
 
 
