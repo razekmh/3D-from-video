@@ -1,0 +1,6 @@
+# 3D-from-video
+
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="104" height="20"><linearGradient id="b" x2="0" y2="100%"><stop offset="0" stop-color="#bbb" stop-opacity=".1"/><stop offset="1" stop-opacity=".1"/></linearGradient><clipPath id="a"><rect width="104" height="20" rx="3" fill="#fff"/></clipPath><g clip-path="url(#a)"><path fill="#555" d="M0 0h57v20H0z"/><path fill="#4c1" d="M57 0h47v20H57z"/><path fill="url(#b)" d="M0 0h104v20H0z"/></g><g fill="#fff" text-anchor="middle" font-family="DejaVu Sans,Verdana,Geneva,sans-serif" font-size="110"> <text x="295" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="470">platform</text><text x="295" y="140" transform="scale(.1)" textLength="470">platform</text><text x="795" y="150" fill="#010101" fill-opacity=".3" transform="scale(.1)" textLength="370">win-64</text><text x="795" y="140" transform="scale(.1)" textLength="370">win-64</text></g> </svg>
+
+![APM](https://img.shields.io/apm/l/vim-mode?style=flat-square)
