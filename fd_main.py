@@ -9,24 +9,16 @@ import time
 
 from utilities import *
 
+# collect system arguments
 parser = argparse.ArgumentParser()
-
-
 parser.add_argument("--directory", "-d", default="videos", help="directory of the videos")
 parser.add_argument("--extension", "-ex",  help="Video file extension")
 parser.add_argument("--algorithm", "-fd", help="Feature detection algorthim", choices=['SIFT', 'ORB'])
-
 args = parser.parse_args()
-
-
-# set main variables
-# TODO: make these sys argv
 directory = args.directory # "C:/Users/razek/Desktop/file"
 fd_algorithm = args.algorithm #"SIFT"
 
-
 files_directory, videos_names = find_videos(directory)
-
 
 def save_frames(vid, vid_name, fd_algorithm, final_frames_ids):
     print(f"Saving frames from {vid_name}")
