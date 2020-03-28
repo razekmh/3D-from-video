@@ -8,7 +8,6 @@
 ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/metabolize/rq-dashboard-on-heroku?style=flat-square)
 
 
-<
 <!-- > photogrammetry, video, visual odometry, keypoint detection -->
 
 
@@ -25,8 +24,8 @@
 ## Prerequisites
 
 - python 3.* 
-- opencv
-- opencv-contrib
+- opencv 3.4.2.16
+- opencv-contrib 3.4.2.16
 - pandas 
 
 You can install the libraries individually or using the requiremnts.txt included in the repository. 
@@ -44,9 +43,39 @@ git clone https://github.com/razekmh/3D-from-video.git
 pip install -r requirement.txt
 ```
 
+## Features
 
-### Clone
+- Produces a folder with extracted frames for each video
+- Parses a folder of videos on one go 
+- Supports three different methodologies and four varieties of algorithms
+
+## Usage
 
 
-img src="https://github.com/razekmh/3D-from-video/blob/master/media/outline.png" title="Study outline" alt="Study outline"></a>
+<img src="https://github.com/razekmh/3D-from-video/blob/master/media/outline.png" title="Study outline" alt="Study outline"></a>
 
+
+
+## Contributing
+
+> To get started...
+### Step 1
+    - Show ❤️! ⭐️ the repository
+    
+### Step 2
+
+- **Option 1**
+    - 🍴 Fork this repo!
+
+- **Option 2**
+    - 👯 Clone this repo to your local machine using `https://github.com/razekmh/3D-from-video.git`
+
+### Step 3
+
+- **HACK AWAY!** 🔨🔨🔨
+
+### Step 4
+
+- 🔃 Create a new pull request using <a href="https://github.com/razekmh/3D-from-video/compare/" target="_blank">`https://github.com/razekmh/3D-from-video/compare/`</a>.
+
+---
