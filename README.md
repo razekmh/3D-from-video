@@ -8,7 +8,7 @@
 ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/metabolize/rq-dashboard-on-heroku?style=flat-square)
 
 
-<img src="https://github.com/razekmh/3D-from-video/blob/master/media/outline.png" title="Study outline" alt="Study outline"></a>
+<
 <!-- > photogrammetry, video, visual odometry, keypoint detection -->
 
 
@@ -31,19 +31,22 @@
 
 You can install the libraries individually or using the requiremnts.txt included in the repository. 
 
+
+## Installation
+
 - first clone the repository
-```
+```shell
 git clone https://github.com/razekmh/3D-from-video.git
 ```
 
-- then install the requirements 
-```
+- then install the requirements if not already installed  
+```shell
 pip install -r requirement.txt
 ```
 
-## Installation
-- Make sure you have all the prerequisites installed and configured 
 
 ### Clone
 
+
+img src="https://github.com/razekmh/3D-from-video/blob/master/media/outline.png" title="Study outline" alt="Study outline"></a>
 
