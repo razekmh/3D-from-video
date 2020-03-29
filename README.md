@@ -19,6 +19,7 @@
 - [Theory](#Theory)
 - [Contributing](#contributing)
 - [Team](#team)
+- [References](#References)
 <!-- - [FAQ](#faq)
 - [Support](#support)
 - [License](#license) -->
@@ -152,4 +153,11 @@ All modules will export the selected frames in a folder named after the video wi
 
 - 🔃 Create a new pull request using <a href="https://github.com/razekmh/3D-from-video/compare/" target="_blank">`https://github.com/razekmh/3D-from-video/compare/`</a>.
 
+
+## References:
+Parts of the code are modified after:
+- https://github.com/uoip/monoVO-python
+
+Readme is modified after: 
+- https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46
 ---
