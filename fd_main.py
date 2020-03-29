@@ -1,6 +1,5 @@
 import argparse
 import cv2 
-from matplotlib import pyplot as plt
 import numpy as np
 from operator import itemgetter
 import os
@@ -17,8 +16,9 @@ parser.add_argument("--algorithm", "-fd", help="Feature detection algorthim", ch
 args = parser.parse_args()
 directory = args.directory # "C:/Users/razek/Desktop/file"
 fd_algorithm = args.algorithm #"SIFT"
+video_extension = args.extension
 
-files_directory, videos_names = find_videos(directory)
+files_directory, videos_names = find_videos(directory, video_extension)
 
 def save_frames(vid, vid_name, fd_algorithm, final_frames_ids):
     print(f"Saving frames from {vid_name}")

@@ -3,7 +3,9 @@ import os
 import xml.etree.ElementTree as ET
 
 # find all videos whith a certain directory 
-def find_videos(path, extension="MOV"):
+def find_videos(path, extension):
+    if not extension:
+        extension="MOV"
     videos_names = []
     files_path = []
     for file in os.listdir(path):

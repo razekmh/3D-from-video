@@ -26,6 +26,8 @@
 ## Prerequisites
 
 - python 3.* 
+
+- matplotlib 3.1.1
 - opencv 3.4.2.16
 - opencv-contrib 3.4.2.16
 - pandas > 0.25.*
