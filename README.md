@@ -65,8 +65,7 @@ The modules also assume that the video extension is ```MOV``` unless you specify
 python vo_main.py -ex extension
 ```
 
-
-The algorthim provides four main options
+### The algorthim provides four main options
 - [Baseline](#Baseline)
 - [Feature Displacement (SIFT detector and BruteForce matcher)](#SIFT)
 - [Feature Displacement (ORB detector and FLANN matcher)](#ORB)
@@ -75,16 +74,37 @@ The algorthim provides four main options
 
 
 ### Baseline
-This module allows you to extract frames from video on regular intervales. You can 
+This option allows you to extract frames from video on regular intervales. It is included in the module ```nth_main.py```. The modules also assume that the intervales are ```25``` frames  unless you specify it in the arguments. The interval argument can be passed using ```-nth``` as in example below
+
+```shell
+python nth_main.py -nth interval
+``` 
 
 ### SIFT
+This option allows you to extract frames based on feature displacement algorithm while using SIFT detector and BruteForce matcher. It is included within the module ```fd_main.py```. To use SIFT you need to specify the ```-fd``` argument by typing ```SIFT``` as in the example below
+
+```shell
+python fd_main.py -fd SIFT
+``` 
 
 ### ORB
+This option allows you to extract frames based on feature displacement algorithm while using ORB detector and FLANN matcher. It is included within the module ```fd_main.py```. To use SIFT you need to specify the ```-fd``` argument by typing ```ORB``` as in the example below
+
+```shell
+python fd_main.py -fd ORB
+```
 
 ### Odometry
+This option allows you to extract frames based on visual odometry algorithm. It requires more parameters to operate properly. The additional parameters should be provided in the for of a ```xml``` file titled after the video with ```_camera_calibration.xml``` trailing after, as in the following example
+
+```
+video_name_camera_calibration.xml
+```
+The structure and information included in the video calibration are included in an example file here
 
 
-
+### Output
+All modules will export the selected frames in a folder named after the video with a suffix pointing to the module/algorithm used. Additionally basic statistics will be exported in simple text file. 
 
 
 ## Theory
