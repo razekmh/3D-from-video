@@ -154,6 +154,10 @@ All modules will export the selected frames in a folder named after the video wi
 - 🔃 Create a new pull request using <a href="https://github.com/razekmh/3D-from-video/compare/" target="_blank">`https://github.com/razekmh/3D-from-video/compare/`</a>.
 
 
+## Team
+- <a href="https://www.linkedin.com/in/razekmh/">Mahmoud Abdelrazek</a>
+- <a href="https://www.researchgate.net/profile/David_Griffiths19">David Griffiths</a>
+
 ## References:
 Parts of the code are modified after:
 - https://github.com/uoip/monoVO-python
