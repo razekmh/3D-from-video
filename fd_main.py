@@ -8,6 +8,7 @@ import time
 
 from utilities import *
 
+
 # collect system arguments
 parser = argparse.ArgumentParser()
 parser.add_argument("--directory", "-d", default="videos", help="directory of the videos")

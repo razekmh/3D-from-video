@@ -26,8 +26,6 @@
 ## Prerequisites
 
 - python 3.* 
-
-- matplotlib 3.1.1
 - opencv 3.4.2.16
 - opencv-contrib 3.4.2.16
 - pandas > 0.25.*
@@ -54,6 +52,14 @@ pip install -r requirement.txt
 - Supports three different methodologies and four varieties of algorithms
 
 ## Usage
+
+The algorthim provides four main options
+- [Baseline](#Baseline)
+- Feature Displacement (SIFT detector and BruteForce matcher)
+- Feature Displacement (ORB detector and FLANN matcher)
+- Visual Odometry
+
+### Baseline
 
 
 

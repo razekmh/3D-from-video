@@ -124,7 +124,7 @@ def select_frames (vid, vid_name):
     height = vidcap.get(4)
     org_frame_count = int(vidcap.get(7))
 
-    print ('Initial frame_count is ', org_frame_count)
+    print ('Initial frame count is ', org_frame_count)
     
     resize_factor = 4
     width = int(width/resize_factor)
