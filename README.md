@@ -53,13 +53,29 @@ pip install -r requirement.txt
 
 ## Usage
 
+To use the modules, you will need at least one video file. Start by placing the video in a folder and keep track of the directory as you will need it in using each of the modules. The default directory for the videos is a folder tilted ```videos``` in the same directory as the modules is saved. If you choose to save your videos in such folders, then you don't need to pass the directory argument to the module while running it. In all the modules the directory argument can be passed using ```-d``` as in example below
+
+```shell
+python vo_main.py -d directory
+```
+
+The modules also assume that the video extension is ```MOV``` unless you specify the extension in the arguments. In all the modules the extension argument can be passed using ```-ex``` as in example below
+
+```shell
+python vo_main.py -ex extension
+```
+
+
 The algorthim provides four main options
 - [Baseline](#Baseline)
 - [Feature Displacement (SIFT detector and BruteForce matcher)](#SIFT)
 - [Feature Displacement (ORB detector and FLANN matcher)](#ORB)
 - [Visual Odometry](#Odometry)
 
+
+
 ### Baseline
+This module allows you to extract frames from video on regular intervales. You can 
 
 ### SIFT
 
