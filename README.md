@@ -100,7 +100,7 @@ This option allows you to extract frames based on visual odometry algorithm. It 
 ```
 video_name_camera_calibration.xml
 ```
-The structure and information included in the video calibration are included in an example file here
+The structure and information included in the video calibration are included in an example file <a href="https://github.com/razekmh/3D-from-video/blob/master/media/video_name_camera_calibration.xml">here</a>
 
 
 ### Output
