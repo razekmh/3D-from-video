@@ -23,8 +23,17 @@ def create_folder_for_video (video_path, extention):
 # extract parameters from the xml camera calibration file 
 def get_parameters (video_path):
     parameters_dict = {}
-    xmlTree = ET.parse(video_path[:-4]+'_camera_calibration.xml')
-    for elem in xmlTree.iter():
-        parameters_dict[elem.tag] = elem.text
+    if os.path.exists(f"{video_path[:-4]}_camera_calibration.xml"):
+        xmlTree = ET.parse(f"{video_path[:-4]}_camera_calibration.xml")
+        for elem in xmlTree.iter():
+            parameters_dict[elem.tag] = elem.text
+    else:
+        parameters_dict['k1'] = 0 
+        parameters_dict['k2'] = 0
+        parameters_dict['p1'] = 0
+        parameters_dict['p2'] = 0
+        parameters_dict['f'] = 0
+
     return parameters_dict
+ 
 
