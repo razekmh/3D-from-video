@@ -57,7 +57,7 @@ The algorthim provides four main options
 - [Baseline](#Baseline)
 - [Feature Displacement (SIFT detector and BruteForce matcher)](#SIFT)
 - [Feature Displacement (ORB detector and FLANN matcher)](#ORB)
-- [Visual Odometry](#Visual Odometry)
+- [Visual Odometry](#Odometry)
 
 ### Baseline
 
@@ -65,7 +65,7 @@ The algorthim provides four main options
 
 ### ORB
 
-### Visual Odometry
+### Odometry
 
 
 
