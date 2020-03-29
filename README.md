@@ -55,17 +55,17 @@ pip install -r requirement.txt
 
 The algorthim provides four main options
 - [Baseline](#Baseline)
-- [Feature Displacement (SIFT detector and BruteForce matcher)](#Feature Displacement (SIFT detector and BruteForce matcher))
-- Feature Displacement (ORB detector and FLANN matcher)
-- Visual Odometry
+- [Feature Displacement (SIFT detector and BruteForce matcher)](#SIFT)
+- [Feature Displacement (ORB detector and FLANN matcher)](#ORB)
+- [Visual Odometry](#Odometry)
 
 ### Baseline
 
-### Baseline
+### SIFT
 
-### Baseline
+### ORB
 
-### Baseline
+### Odometry
 
 
 
