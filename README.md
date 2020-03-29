@@ -95,13 +95,14 @@ python fd_main.py -fd ORB
 ```
 
 ### Odometry
-This option allows you to extract frames based on visual odometry algorithm. It requires more parameters to operate properly. The additional parameters should be provided in the for of a ```xml``` file titled after the video with ```_camera_calibration.xml``` trailing after, as in the following example
+This option allows you to extract frames based on visual odometry algorithm. It is included within the module ```vo_main.py```. It requires more parameters to operate properly. The additional parameters should be provided in the for of a ```xml``` file titled after the video with ```_camera_calibration.xml``` trailing after, as in the following example
 
 ```
 video_name_camera_calibration.xml
 ```
 The structure and information included in the video calibration are included in an example file <a href="https://github.com/razekmh/3D-from-video/blob/master/media/video_name_camera_calibration.xml">here</a>
 
+If the xml file is not provided, the module will set the camera calibration parameters to zeros and will estimate the focal length based on the video dimensions which will impact the quality of the results.
 
 ### Output
 All modules will export the selected frames in a folder named after the video with a suffix pointing to the module/algorithm used. Additionally basic statistics will be exported in simple text file. 
