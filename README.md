@@ -1,4 +1,4 @@
-<a href="https://github.com/razekmh/3D-from-video"><img src="https://github.com/razekmh/3D-from-video/blob/master/media/3d_from_video.png" title="3D from video" alt="3D from video"></a>
+<a href="https://github.com/razekmh/3D-from-video"><img src="https://github.com/razekmh/3D-from-video/blob/master/media/3d_from_video.png" title="3D from video" alt="3D from video" width="2415" height="756"></a>
 # 3D-from-video
 > Optimum frame selection for 3D reconstruction from video
 
@@ -157,6 +157,7 @@ All modules will export the selected frames in a folder named after the video wi
 ## Team
 - <a href="https://www.linkedin.com/in/razekmh/">Mahmoud Abdelrazek</a>
 - <a href="https://dgriffiths3.github.io/">David Griffiths</a>
+- <a href="https://www.ucl.ac.uk/civil-environmental-geomatic-engineering/people/dr-jan-boehm">Jan Boehm</a>
 
 ## References:
 Parts of the code are modified after:
