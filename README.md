@@ -1,4 +1,4 @@
-<a href="https://github.com/razekmh/3D-from-video"><img src="https://github.com/razekmh/3D-from-video/blob/master/media/3d_from_video.png" title="3D from video" alt="3D from video" width="1000" height="500"></a>
+<a href="https://github.com/razekmh/3D-from-video"><img src="https://github.com/razekmh/3D-from-video/blob/master/media/3d_from_video.png" title="3D from video" alt="3D from video" width="1000" height="400"></a>
 # 3D-from-video
 > Optimum frame selection for 3D reconstruction from video
 
