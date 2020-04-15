@@ -127,7 +127,7 @@ All modules will export the selected frames in a folder named after the video wi
 
 
 ## Theory
-<img src="https://github.com/razekmh/3D-from-video/blob/master/media/outline.png" title="Study outline" alt="Study outline" width="700"></a>
+<img src="https://github.com/razekmh/3D-from-video/blob/master/media/outline.png" title="Study outline" alt="Study outline" width="300"></a>
 
 
 
