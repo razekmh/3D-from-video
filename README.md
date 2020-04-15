@@ -156,7 +156,7 @@ All modules will export the selected frames in a folder named after the video wi
 
 ## Team
 - <a href="https://www.linkedin.com/in/razekmh/">Mahmoud Abdelrazek</a>
-- <a href="https://www.researchgate.net/profile/David_Griffiths19">David Griffiths</a>
+- <a href="https://dgriffiths3.github.io/">David Griffiths</a>
 
 ## References:
 Parts of the code are modified after:
